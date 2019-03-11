@@ -120,3 +120,28 @@ body {
 .nav-item {
   margin: 0px 10px;
 }
+
+.section-padding-top {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.partner {
+  width: 200px;
+  margin: 30px 30px;
+}
+
+.title {
+  margin: 10px 0px;
+}
+
+
+.section-divider {
+  background-color: hsla(0, 0%, 100%, .15);
+  height: 1px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 60px;
+  background-color: rgba(66, 66, 66, .15);
+  display: inline-block;
+}
