@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300');
-
+@import url('https://fonts.googleapis.com/css?family=Kanit:300');
 
 body {
   background: #ECEFF1;
   color: rgba(0, 0, 0, 0.87);
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Kanit', sans-serif !important;
   margin: 0;
   padding: 0;
 }
@@ -71,24 +70,25 @@ body {
 }
 
 .cover-bg {
-  background-color: #090c1b;
+  background-color: transparent;
 }
 
 .jumbotron {
-  background-image: url(../images/MatBG.jpg);
+  background-image: url(../images/MountainBG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 960px;
+  height: 1000px;
   background-position: center;
   height: -webkit-fill-available;
   color: #fff;
   text-align: center;
   border-radius: 0px !important;
   margin-bottom: 0px !important;
+  padding-top: 10px !important;
 }
 
 .bg-color {
-  background-color: #090603 !important;
+  background-color: transparent !important;
 }
 
 .social {
@@ -133,6 +133,7 @@ body {
 
 .title {
   margin: 10px 0px;
+  margin-top: 30px;
 }
 
 
@@ -144,4 +145,14 @@ body {
   width: 60px;
   background-color: rgba(66, 66, 66, .15);
   display: inline-block;
+}
+
+.background-port {
+  background-color: #fff);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.cover-text {
+  margin-top: 200px;
 }
