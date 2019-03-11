@@ -78,12 +78,13 @@ body {
   background-image: url(../images/MatBG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 960px;
   background-position: center;
   height: -webkit-fill-available;
   color: #fff;
   text-align: center;
   border-radius: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 .bg-color {
@@ -93,9 +94,29 @@ body {
 .social {
   margin: 10px;
   color: #fff;
+  margin-top: 50%;
 }
 
 .social:hover {
   margin: 10px;
   color: #fff;
+  margin-top: 50%;
+}
+
+.footer {
+  color: #fff;
+  background-color: #090603;
+  text-align: center;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.nav-link {
+  margin: 10px;
+}
+
+.nav-item {
+  margin: 10px;
 }
